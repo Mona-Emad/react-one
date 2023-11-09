@@ -1,0 +1,183 @@
+.home
+{
+    background-color: #1abc9c;
+}
+.star-ico
+{
+    position: relative;
+}
+.star-ico::after
+{
+    content:"" ;
+    width:100px;
+    height: 5px;
+    background-color: #eee;
+    position: absolute;
+    right: 30px;
+    bottom: 50%;
+}
+.star-ico::before
+{
+    content:"" ;
+    width:100px;
+    height: 5px;
+    background-color: #eee;
+    position: absolute;
+    left:30px;
+    bottom: 50%;
+}
+
+
+
+
+nav
+{
+    background-color: #2c3e50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav .navbar-brand
+{
+    font-size: 30px;
+    font-weight: 20px;
+}
+nav .nav-link:focus
+{
+    background-color: #1abc9c;
+    border-radius: 10px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+.about
+{
+    background-color:  #1abc9c;
+    height: 100vh;
+    margin-top: 102px;
+}
+
+
+
+
+
+.imag-laer 
+{
+    background-color: #1abc9c;
+    opacity: 0;
+    cursor: pointer;
+}
+.imge-inner:hover .imag-laer
+{
+    opacity: .8;
+}
+
+
+
+
+
+
+
+.contect,
+.portfolio
+{
+    padding-top: 104px;
+    
+}
+
+.content-head h2
+{
+    font-size: 40px;
+    font-weight: 20px;
+    color: #2c3e50;
+    
+}
+.starContect-ico i{
+    color: #2c3e50;
+}
+.starContect-ico
+{
+    width: fit-content;
+}
+.starContect-ico::after
+{
+    content:"" ;
+    width:100px;
+    height: 5px;
+    background-color: #2c3e50;
+    position: absolute;
+    right: 30px;
+    bottom: 50%;
+}
+.starContect-ico::before
+{
+    content:"" ;
+    width:100px;
+    height: 5px;
+    background-color: #2c3e50;
+    position: absolute;
+    left:30px;
+    bottom: 50%;
+}
+
+.contect-content button
+{
+    width: fit-content;
+}
+.form-floating input:focus
+{
+    border: none;
+}
+.form-floating input
+{
+    outline: none;
+}
+.form-floating input.form-control:focus 
+{
+    border: none!important;
+    box-shadow:none;
+}
+.form-floating input:active label
+{
+    color: aqua;
+}
+button.btn-green:hover{
+    background-color: #1abc9c;
+}
+button.btn-green
+{
+    background-color: #1abc9c;
+}
+
+
+
+
+
+
+
+
+
+
+footer
+{
+    background-color:  #2c3e50;
+    
+    
+}
+footer .footer-icon
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 100vh;
+    border: 2px solid white;
+    
+}
